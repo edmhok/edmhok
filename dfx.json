@@ -1,0 +1,20 @@
+{
+    "canisters": {
+        "portfolio": {
+            "frontend": {
+                "entrypoint": "src/pages/index.js"
+            },
+            "source": [
+                "src"
+            ],
+            "type": "assets"
+        }
+    },
+    "version": 1,
+    "networks": {
+        "local": {
+            "bind": "0.0.0.0:8000",
+            "type": "ephemeral"
+        }
+    }
+}
